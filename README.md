@@ -8,5 +8,5 @@ No matter how much security you put in place, there are chances that your enviro
 ### Search and Delete Emails.
 > .\Search-Mailbox-and-Del-Email.ps1 -Subject "Inside Shire -- April 13, 2017" -From "testuser@test.com" -InputFile .\user.txt -DeleteEmails "True"
 
-Read my post on this script here:
+Read my post on this script here for more Details:
 https://www.linkedin.com/pulse/powershell-scriptusing-search-mailbox-remove-email-from-sunil-chauhan

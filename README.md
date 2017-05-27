@@ -1,12 +1,5 @@
-Delete a specific email from all Users Mailboxes in O365 and Exchange.
-Powershell Script using Search-Mailbox to search and Delete Emails from user Mailboxes.
+### [Powershell Script] Using Search-Mailbox to remove Email from user Mailboxes based on Sender and Subject
 
-*Step 1 – Add your admin id to “Discovery Management” group
-You can’t use Search-Mailbox cmd unless you have “Discovery Management” Group Rights, you can use EAC to Manage Role Group  and Grant permission to your account.
-
-*Step 2 - To use -DeleteContent switch your account requires Mailbox Import Export role Access you can follow the below steps for the same. 
-
-Create a group Name Import and Export
-> New-RoleGroup “Import Export ” -Roles “Mailbox Import Export”
-Add the admin ID to the role group.
-> Add-RoleGroupMember “Import Export” -Member “LABADMIN” 
+No matter how much security you put in place, there are chances that your environment is hit by the Phishing and spam emails and you have received a request from your security team to clean that email from user mailboxes immediately.
+Read my post on this script here:
+https://www.linkedin.com/pulse/powershell-scriptusing-search-mailbox-remove-email-from-sunil-chauhan
